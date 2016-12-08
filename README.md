@@ -2,6 +2,9 @@
 
 My personal vim configuration. This repository includes my `~/.vimrc` and my `~/.vim/` directory which includes the plugins I use as submodules.
 
+#Screenshot
+![dotvim-screenshot](http://i.imgur.com/mULif1q.png)
+
 # Installation
 
 Clone the repository
