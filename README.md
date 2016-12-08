@@ -4,7 +4,7 @@ My personal vim configuration. This repository includes my `~/.vimrc` and my `~/
 
 # Installation
 
-Clone the repositry
+Clone the repository
 ```
 git clone git@github.com:junereycasuga/dotvim.git ~/.vim
 ```
@@ -19,6 +19,13 @@ Download the plugins
 cd ~/.vim
 git submodule init
 git submodule update
+```
+
+Download YouCompleteMe dependencies
+```
+cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
+./install.py
 ```
 
 # Upgrading all plugins
